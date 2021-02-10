@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+  
+
+    <title>TP JS YacineDRARENI TariqBOUAZDI</title>
+    <charset="UTF-8">
+
+    <script src="meteo.js"></script>
+    <link href="meteo.css" rel="stylesheet" media="all" type="text/css">
+ 
+    
+    
+  </head>
+  
+
+  <body >
+    <center>
+      <h1>TP Météo HTML/CSS/JS</h1>  
+    </center>
+    
+    <label for="citySelect">Choisissez une ville:</label>
+
+    <select id="citySelect" onchange=showCity()>
+        <option value="">--Choisissez une ville s'il vous plaît-- </option>
+        <option value="Lyon"> Lyon</option>
+        <option value="Paris"> Paris</option>
+        <option value="Alger"> Alger</option>
+        <option value="All"> toutes les villes disponibles</option>
+    </select>
+
+    <br><br><br>
+  <div id="flex">
+    <div class ="divVille" id="Lyon">
+      <div>
+        <h2 class = "ville"> Lyon </h2>
+        <p> 6° , Nuageux </p>
+      </div>
+
+      <div>
+        <img 
+            src=".\nuageux.png"
+            width="60"
+            alt ="Nuages">
+        <br>
+      </div>
+    </div>
+
+  <div class = "divVille" id="Paris">
+    <div>
+      <h2 class="ville"> Paris </h2>
+      <p> 1° , Nuageux </p>
+    </div>
+    <div>
+    <img 
+        src=".\nuageux.png"
+        width="60" 
+        alt ="Nuages">
+      <br>
+    </div>
+  </div>
+   
+  <div class = "divVille" id="Alger">
+    
+    <div>
+      <h2 class = "ville"> Alger </h2> 
+      <p> 17° , Partiellement couvert </p>
+    </div>
+    <div>    
+      <img 
+          src=".\couvert.png"
+          width="60" 
+          alt ="partiellement couvert">
+    </div>
+  </div>
+</div>
+
+  <footer>
+      <p> Tariq BOUAZDI - Yacine DRARENI<br>icones created by 
+      <a href="https://thenounproject.com/search/collection/?q=weather">noun project </a></p>
+  </footer>
+      </body>
+</html>

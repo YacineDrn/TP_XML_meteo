@@ -1,0 +1,26 @@
+      h1  { background-color: rgb(169, 169, 180);
+            color: white  }
+      
+      .ville { color: rgb(100, 100, 130);}
+      
+      .divVille{ background-color: rgb(220, 220, 255);
+                  border:solid 2px rgb(200,200,230);
+                  width:200px ;
+                  display :flex;
+                  flex : 1;
+                  margin-bottom:20px;
+                  margin-left : 10px;
+                  margin-right: 10px;
+                  justify-content:space-around }
+
+
+
+      #flex { display :flex;justify-content:space-around;
+              flex-wrap:wrap}
+  
+      footer  { background-color: rgb(169, 169, 180);
+                color: black; font-size:12px;opacity:0.5}
+    
+    </style>
+
+    
